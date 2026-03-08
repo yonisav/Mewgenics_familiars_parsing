@@ -2,7 +2,7 @@ import csv
 import utils
 
 GON_FILES_ARRAY = ['familiars.gon', 'enemies.gon',  'cat_enemies.gon', 'small_enemies.gon', 'cat_minibosses.gon',
-                   'minibosses.gon', 'bosses.gon']
+                   'minibosses.gon', 'bosses.gon', 'druid_friends.gon']
 
 class Familiar:
     def __init__(self,name:str = "Error", description:str = "Error", health:int= -1, shield:int= 0, holy_shield:int= 0,
@@ -33,7 +33,7 @@ def create_interesting_dictionary(familiar_file):
     enemy_name = ""
     field_name = ""
     level = 0
-    with open('Familiars.gon', mode='r', encoding='utf-8') as f_in:
+    with open('druid_friends.gon', mode='r', encoding='utf-8') as f_in:
         for line in f_in:
             line = line.strip()
             if line == '':
@@ -85,6 +85,8 @@ def parse_enemy_info_recu(familiar, unit_lookup, interest) -> bool:
                 if line == '':
                     continue
                 if "}" in line:
+                    if "{" in line:
+                        continue
                     level -= 1
                     if found and level == 0:
                         return True
@@ -100,6 +102,7 @@ def parse_enemy_info_recu(familiar, unit_lookup, interest) -> bool:
                             field_name = split_line[0]
                         # if fam is variant recursively look for the father info
                         elif split_line[0] == "variant_of":
+                            print(f"{fam.display_name=}, {fam.desc=}, {split_line[1]}")
                             parse_enemy_info_recu(familiar, unit_lookup, split_line[1])
                     elif level == 2:
                         if field_name == "stats":
@@ -119,7 +122,7 @@ def parse_enemy_info_recu(familiar, unit_lookup, interest) -> bool:
                                 fam.display_name = unit_lookup.get(split_line[1].strip('"'), fam.display_name)
                                 key = split_line[1].replace("NAME", "DESC").strip('"')
                                 fam.desc = unit_lookup.get(key, "")
-                                print(f"{fam.display_name=}, {fam.desc=}, {split_line[1].strip('"')=}")
+                                #print(f"{fam.display_name=}, {fam.desc=}, {split_line[1].strip('"')=}")
                             elif split_line[0] == "tooltip":
                                 # get tooltip from csv
                                 fam.desc = unit_lookup.get(split_line[1].strip('"'), "")
@@ -161,14 +164,14 @@ def generate_formatted_item_list():
 
     print(unit_lookup)
 
-    familiar_dic = create_interesting_dictionary('Familiars.gon')
-    print(familiar_dic)
+    familiar_dic = create_interesting_dictionary('druid_friends.gon')
+    #print(familiar_dic)
 
     with open('wiki_format_familiars.txt', 'w', encoding='utf-8') as f_out:
         for item in familiar_dic:
             fam = Familiar(name=item)
             parse_enemy_info_recu(fam, unit_lookup, item)
-            f_out.write(str(fam)+"\n")
+            f_out.write(fam.name + "\n" + str(fam) + "\n")
 
 
 # Run the process

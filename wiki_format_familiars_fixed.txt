@@ -1,0 +1,363 @@
+Florian the Flea
+{{Infobox/Enemy
+| Description = Your flea friend till the end!
+| Location = Summon
+| Health = 10
+| Shield = 
+| HolyShield = 
+| Damage = 4
+| Movement = 4
+| Luck = 
+}}
+
+
+Deathbot (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 12
+| Shield = 
+| HolyShield = 
+| Damage = 5
+| Movement = 4
+| Luck = 
+}}
+
+
+Turret
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 3
+| Shield = 
+| HolyShield = 
+| Damage = 5
+| Movement = 4
+| Luck = 
+}}
+
+
+Rocket Turret
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 3
+| Shield = 
+| HolyShield = 
+| Damage = 5
+| Movement = 4
+| Luck = 
+}}
+
+
+Leech (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 2
+| Luck = 
+}}
+
+
+Beefy Leech
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 8
+| Shield = 
+| HolyShield = 
+| Damage = 4
+| Movement = 4
+| Luck = 
+}}
+
+
+Best Bud (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 8
+| Shield = 
+| HolyShield = 
+| Damage = 4
+| Movement = 4
+| Luck = 
+}}
+
+
+Catbot (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 10
+| Shield = 
+| HolyShield = 
+| Damage = 0
+| Movement = 5
+| Luck = 5
+}}
+
+
+Zombie Kitten
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 6
+| Shield = 
+| HolyShield = 
+| Damage = 3
+| Movement = 2
+| Luck = 5
+}}
+
+
+Skeleton Kitten
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 0
+| Shield = 6
+| HolyShield = 
+| Damage = 3
+| Movement = 2
+| Luck = 5
+}}
+
+
+Bombchu (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 5
+| Shield = 
+| HolyShield = 
+| Damage = 4
+| Movement = 1
+| Luck = 
+}}
+
+
+Robo-Vac (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 3
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 8
+| Luck = 
+}}
+
+
+Nurse Bot (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 5
+| Shield = 5
+| HolyShield = 
+| Damage = 5
+| Movement = 5
+| Luck = 5
+}}
+
+
+Tesla Coil (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 5
+| Shield = 
+| HolyShield = 
+| Damage = 
+| Movement = 
+| Luck = 
+}}
+
+
+Fetus Gusher (Summon)
+{{Infobox/Enemy
+| Description = Its water attack pushes all units in a straight line. Must be in water to attack. Seeks water when out of water.
+| Location = Summon
+| Health = 15
+| Shield = 
+| HolyShield = 
+| Damage = 1
+| Movement = 3
+| Luck = 
+}}
+
+
+Sleep Paralysis Demon
+{{Infobox/Enemy
+| Description = When killed, the afflicted cat wakes up.
+| Location = Summon
+| Health = 19
+| Shield = 
+| HolyShield = 
+| Damage = 7
+| Movement = 5
+| Luck = 5
+}}
+
+
+Hyde (Summon)
+{{Infobox/Enemy
+| Description = Its melee attack can hit multiple times!
+| Location = Summon
+| Health = 8
+| Shield = 
+| HolyShield = 
+| Damage = 6
+| Movement = 5
+| Luck = 5
+}}
+
+
+Summoned Clot
+{{Infobox/Enemy
+| Description = Has a chance to become a Clone at the end of its turn.
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 4
+| Luck = 
+}}
+
+
+Triachnid (Summon)
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 3
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 8
+| Luck = 
+}}
+
+
+Tina's Friend 
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 10
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 4
+| Luck = 
+}}
+
+
+The Lost
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 14
+| Shield = 
+| HolyShield = 
+| Damage = 5
+| Movement = 4
+| Luck = 
+}}
+
+
+The Intruder
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 28
+| Shield = 
+| HolyShield = 
+| Damage = 7
+| Movement = 6
+| Luck = 5
+}}
+
+
+Phantom Mask (Summon)
+{{Infobox/Enemy
+| Description = Invulnerable. Attack it to knock it foward in a straight line. It deals 5 damage to units it hits.
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 
+| Movement = 2
+| Luck = 
+}}
+
+
+Baby Squirrel
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 1
+| Movement = 6
+| Luck = 
+}}
+
+
+Turtle
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 1
+| Shield = 10
+| HolyShield = 
+| Damage = 3
+| Movement = 1
+| Luck = 
+}}
+
+
+Toad
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 4
+| Luck = 
+}}
+
+
+Egg
+{{Infobox/Enemy
+| Description = What could it hatch into?
+| Location = Summon
+| Health = 4
+| Shield = 4
+| HolyShield = 
+| Damage = 5
+| Movement = 0
+| Luck = 5
+}}
+
+
+Glowing Mushroom
+{{Infobox/Enemy
+| Description = Grants Mana to nearby units on its turn.
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 
+| Movement = 
+| Luck = 
+}}
+
