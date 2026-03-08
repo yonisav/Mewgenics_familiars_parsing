@@ -1,0 +1,301 @@
+CharmedFleaSpecial
+Florian the Flea
+{{Infobox/Enemy
+| Description = Your flea friend till the end!
+| Location = 
+| Health = 10
+| Shield = 0
+| HolyShield = 0
+| Damage = 0
+| Movement = 0
+| Luck = 0
+}}
+
+Deathbot
+Deathbot
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 12
+| Shield = 0
+| HolyShield = 0
+| Damage = 5
+| Movement = 4
+| Luck = 0
+}}
+
+TinkererTurret
+Turret
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 3
+| Shield = 0
+| HolyShield = 0
+| Damage = 5
+| Movement = 4
+| Luck = 0
+}}
+
+CharmedDemonKitten
+Demon Kitten
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 14
+| Shield = 0
+| HolyShield = 0
+| Damage = 5
+| Movement = 0
+| Luck = 0
+}}
+
+BeefyCharmedLeech
+Beefy Leech
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 8
+| Shield = 0
+| HolyShield = 0
+| Damage = 4
+| Movement = 4
+| Luck = 0
+}}
+
+BestBud
+Best Bud
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 8
+| Shield = 0
+| HolyShield = 0
+| Damage = 4
+| Movement = 4
+| Luck = 0
+}}
+
+Catbot
+Catbot
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 10
+| Shield = 0
+| HolyShield = 0
+| Damage = 5
+| Movement = 5
+| Luck = 5
+}}
+
+ZombieCatFamiliar
+Zombie Kitten
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 6
+| Shield = 0
+| HolyShield = 0
+| Damage = 3
+| Movement = 2
+| Luck = 5
+}}
+
+SkeletonCatFamiliar
+Skeleton Kitten
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 0
+| Shield = 6
+| HolyShield = 0
+| Damage = 3
+| Movement = 2
+| Luck = 5
+}}
+
+SkeletonCatCorpseFamiliar
+Skeleton Kitten
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 0
+| Shield = 6
+| HolyShield = 0
+| Damage = 0
+| Movement = 0
+| Luck = 0
+}}
+
+Bombchu
+Bombchu
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 5
+| Shield = 0
+| HolyShield = 0
+| Damage = 4
+| Movement = 1
+| Luck = 0
+}}
+
+MechSuit
+Mech Suit
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 5
+| Shield = 0
+| HolyShield = 0
+| Damage = 8
+| Movement = 3
+| Luck = 5
+}}
+
+RoboVacuum
+Robo-Vac
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 3
+| Shield = 0
+| HolyShield = 0
+| Damage = 2
+| Movement = 8
+| Luck = 0
+}}
+
+NurseBot
+Nurse Bot
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 5
+| Shield = 5
+| HolyShield = 0
+| Damage = 5
+| Movement = 5
+| Luck = 5
+}}
+
+TeslaCoil
+Tesla Coil
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 5
+| Shield = 0
+| HolyShield = 0
+| Damage = 0
+| Movement = 0
+| Luck = 0
+}}
+
+FamiliarFetus
+Fetus
+{{Infobox/Enemy
+| Description = Ranged attacker.
+Can drink water to heal.
+| Location = 
+| Health = 12
+| Shield = 0
+| HolyShield = 0
+| Damage = 5
+| Movement = 2
+| Luck = 0
+}}
+
+FamiliarFetusGusher
+Fetus Gusher
+{{Infobox/Enemy
+| Description = Its water attack pushes all units in a straight line.
+Must be in water to attack. Seeks water when out of water.
+| Location = 
+| Health = 15
+| Shield = 0
+| HolyShield = 0
+| Damage = 5
+| Movement = 3
+| Luck = 0
+}}
+
+SleepParalysisDemon
+{SpawnedBy}'s Sleep Paralysis Demon
+{{Infobox/Enemy
+| Description = When killed, {SpawnedBy} wakes up.
+| Location = 
+| Health = 19
+| Shield = 0
+| HolyShield = 0
+| Damage = 7
+| Movement = 0
+| Luck = 0
+}}
+
+CharmedHyde
+
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 8
+| Shield = 0
+| HolyShield = 0
+| Damage = 0
+| Movement = 0
+| Luck = 0
+}}
+
+CharmedFetus2
+
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 24
+| Shield = 0
+| HolyShield = 0
+| Damage = 0
+| Movement = 0
+| Luck = 0
+}}
+
+Triachnid
+Triachnid
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 3
+| Shield = 0
+| HolyShield = 0
+| Damage = 2
+| Movement = 8
+| Luck = 0
+}}
+
+CharmedTinaFly
+Tina's Friend
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 10
+| Shield = 0
+| HolyShield = 0
+| Damage = 0
+| Movement = 0
+| Luck = 0
+}}
+
+PhantomMaskRock
+Phantom Mask
+{{Infobox/Enemy
+| Description = 
+| Location = 
+| Health = 1
+| Shield = 0
+| HolyShield = 0
+| Damage = 0
+| Movement = 2
+| Luck = 0
+}}
+
