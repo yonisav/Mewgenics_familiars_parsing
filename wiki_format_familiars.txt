@@ -1,140 +1,11 @@
-Florian the Flea
+Crow
+{SpawnedBy}'s Crow
 {{Infobox/Enemy
-| Description = Your flea friend till the end!
+| Description = Inherits its owner's stats.
+Basic attack modifiers on its owner also get applied to the Crow.
+Flying.
 | Location = Summon
-| Health = 10
-| Shield = 
-| HolyShield = 
-| Damage = 4
-| Movement = 4
-| Luck = 
-}}
-
-Steel Fly
-{{Infobox/Enemy
-| Description = Invulnerable.
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 4
-| Luck = 
-}}
-
-Rot Fly
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 4
-| Luck = 
-}}
-
-Rot Fly
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 4
-| Luck = 
-}}
-
-Deathbot
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 12
-| Shield = 
-| HolyShield = 
-| Damage = 5
-| Movement = 4
-| Luck = 
-}}
-
-Turret
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 3
-| Shield = 
-| HolyShield = 
-| Damage = 5
-| Movement = 4
-| Luck = 
-}}
-
-Rocket Turret
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 3
-| Shield = 
-| HolyShield = 
-| Damage = 5
-| Movement = 4
-| Luck = 
-}}
-
-Demon Kitten
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 14
-| Shield = 
-| HolyShield = 
-| Damage = 5
-| Movement = 
-| Luck = 
-}}
-
-Leech
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 2
-| Luck = 
-}}
-
-Beefy Leech
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 8
-| Shield = 
-| HolyShield = 
-| Damage = 4
-| Movement = 4
-| Luck = 
-}}
-
-Best Bud
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 8
-| Shield = 
-| HolyShield = 
-| Damage = 4
-| Movement = 4
-| Luck = 
-}}
-
-Catbot
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 10
+| Health = 5
 | Shield = 
 | HolyShield = 
 | Damage = 5
@@ -142,119 +13,101 @@ Catbot
 | Luck = 5
 }}
 
-Zombie Kitten
+BabySquirrel
+Baby Squirrel
 {{Infobox/Enemy
 | Description = 
 | Location = Summon
-| Health = 6
+| Health = 1
 | Shield = 
 | HolyShield = 
-| Damage = 3
-| Movement = 2
-| Luck = 5
-}}
-
-Skeleton Kitten
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 0
-| Shield = 6
-| HolyShield = 
-| Damage = 3
-| Movement = 2
-| Luck = 5
-}}
-
-Skeleton Kitten
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 0
-| Shield = 6
-| HolyShield = 
-| Damage = 
-| Movement = 
+| Damage = 1
+| Movement = 6
 | Luck = 
 }}
 
-Bombchu
+Squirrel
+Squirrel
 {{Infobox/Enemy
 | Description = 
 | Location = Summon
-| Health = 5
+| Health = 1
 | Shield = 
 | HolyShield = 
-| Damage = 4
+| Damage = 2
+| Movement = 5
+| Luck = 
+}}
+
+Snake
+Snake
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 2
+| Movement = 5
+| Luck = 
+}}
+
+Turtle
+Turtle
+{{Infobox/Enemy
+| Description = 
+| Location = Summon
+| Health = 1
+| Shield = 10
+| HolyShield = 
+| Damage = 3
 | Movement = 1
 | Luck = 
 }}
 
-Mech Suit
+Toad
+Toad
 {{Infobox/Enemy
 | Description = 
 | Location = Summon
-| Health = 5
-| Shield = 
-| HolyShield = 
-| Damage = 8
-| Movement = 3
-| Luck = 5
-}}
-
-Robo-Vac
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 3
+| Health = 1
 | Shield = 
 | HolyShield = 
 | Damage = 2
-| Movement = 8
+| Movement = 4
 | Luck = 
 }}
 
-Nurse Bot
+Toad2
+Toad
 {{Infobox/Enemy
 | Description = 
 | Location = Summon
-| Health = 5
-| Shield = 5
+| Health = 4
+| Shield = 
 | HolyShield = 
-| Damage = 5
-| Movement = 5
-| Luck = 5
+| Damage = 2
+| Movement = 4
+| Luck = 
 }}
 
-Tesla Coil
+NeutralToad
+Frog
 {{Infobox/Enemy
 | Description = 
 | Location = Summon
-| Health = 5
+| Health = 1
 | Shield = 
 | HolyShield = 
-| Damage = 
-| Movement = 
+| Damage = 2
+| Movement = 4
 | Luck = 
 }}
 
-Fetus
+Bear
+Bear
 {{Infobox/Enemy
-| Description = Ranged attacker.
-Can drink water to heal.
-| Location = Summon
-| Health = 12
-| Shield = 
-| HolyShield = 
-| Damage = 5
-| Movement = 2
-| Luck = 
-}}
-
-Fetus Gusher
-{{Infobox/Enemy
-| Description = Its water attack pushes all units in a straight line.
-Must be in water to attack. Seeks water when out of water.
+| Description = 
 | Location = Summon
 | Health = 15
 | Shield = 
@@ -264,185 +117,69 @@ Must be in water to attack. Seeks water when out of water.
 | Luck = 
 }}
 
-{SpawnedBy}'s Sleep Paralysis Demon
+Catepillar
+Caterpillar
 {{Infobox/Enemy
-| Description = When killed, {SpawnedBy} wakes up.
-| Location = Summon
-| Health = 19
-| Shield = 
-| HolyShield = 
-| Damage = 7
-| Movement = 
-| Luck = 
-}}
-
-Grub
-{{Infobox/Enemy
-| Description = 
+| Description = Gains All Stats Up each turn.
+Evolves into a Moth when it reaches All Stats Up 5.
 | Location = Summon
 | Health = 1
 | Shield = 
 | HolyShield = 
-| Damage = 2
-| Movement = 2
-| Luck = 
+| Damage = 1
+| Movement = 1
+| Luck = 1
 }}
 
-Grub
+Moth
+Moth
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 2
-| Luck = 
-}}
-
-Grub
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 2
-| Luck = 
-}}
-
-Grub
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 2
-| Luck = 
-}}
-
-
-{{Infobox/Enemy
-| Description = Error
-| Location = Summon
-| Health = 8
-| Shield = 
-| HolyShield = 
-| Damage = 
-| Movement = 
-| Luck = 
-}}
-
-Fetus
-{{Infobox/Enemy
-| Description = Ranged attacker.
-Can drink water to heal.
 | Location = Summon
 | Health = 24
 | Shield = 
 | HolyShield = 
+| Damage = 8
+| Movement = 5
+| Luck = 8
+}}
+
+AnimalEgg
+Egg
+{{Infobox/Enemy
+| Description = What could it hatch into?
+| Location = Summon
+| Health = 4
+| Shield = 4
+| HolyShield = 
 | Damage = 5
-| Movement = 2
-| Luck = 
-}}
-
-{SpawnedBy}'s Clot
-{{Infobox/Enemy
-| Description = Has a chance to become a {SpawnedBy} Clone at the end of its turn.
-| Location = Summon
-| Health = 1
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 4
-| Luck = 
-}}
-
-Triachnid
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 3
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 8
-| Luck = 
-}}
-
-White Rabbit
-{{Infobox/Enemy
-| Description = Has a 50% chance of gaining Madness at the end of each turn.
-| Location = Summon
-| Health = 50
-| Shield = 
-| HolyShield = 
-| Damage = 3
-| Movement = 2
+| Movement = 0
 | Luck = 5
 }}
 
-Tina's Friend
+GlowingMushroom
+Glowing Mushroom
 {{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 10
-| Shield = 
-| HolyShield = 
-| Damage = 2
-| Movement = 4
-| Luck = 
-}}
-
-The Lost
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 14
-| Shield = 
-| HolyShield = 
-| Damage = 5
-| Movement = 4
-| Luck = 
-}}
-
-The Intruder
-{{Infobox/Enemy
-| Description = 
-| Location = Summon
-| Health = 
-| Shield = 
-| HolyShield = 
-| Damage = 
-| Movement = 
-| Luck = 
-}}
-
-
-{{Infobox/Enemy
-| Description = Gains an extra attack per turn each time it takes damage.
-Gains Speed at the end of its turn.
-| Location = Summon
-| Health = 
-| Shield = 
-| HolyShield = 
-| Damage = 
-| Movement = 
-| Luck = 
-}}
-
-Phantom Mask
-{{Infobox/Enemy
-| Description = Invulnerable. Attack it to knock it foward in a straight line. It deals 5 damage to units it hits.
+| Description = Grants Mana to nearby units on its turn.
 | Location = Summon
 | Health = 1
 | Shield = 
 | HolyShield = 
 | Damage = 
-| Movement = 2
+| Movement = 
+| Luck = 
+}}
+
+GlowingMushroom2
+Glowing Mushroom
+{{Infobox/Enemy
+| Description = Grants Mana and health to nearby units on its turn.
+| Location = Summon
+| Health = 1
+| Shield = 
+| HolyShield = 
+| Damage = 
+| Movement = 
 | Luck = 
 }}
 
