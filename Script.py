@@ -10,25 +10,24 @@ class Familiar:
         self.name = name
         self.display_name = ""
         self.desc = description
-        self.location = "Summon"
+        self.location = "All"
+        self.type = "Familiar"
         self.health = health
         self.shield = shield
         self.holy_shield = holy_shield
         self.damage = damage
         self.movement = movement
         self.luck = luck
-        self.is_interesting = False
 
     def __str__(self):
         rep_str = self.display_name + "\n"
-        rep_str += utils.create_enemy_info_box(self.desc, self.location, self.health, self.shield, self.holy_shield, self.damage,
+        rep_str += utils.create_enemy_info_box(self.desc, self.location, self.type, self.health, self.shield, self.holy_shield, self.damage,
                                          self.movement, self.luck) +"\n"
         return rep_str
 
 #Create a library of only the interesting familiars to avoid extra parsing later
 #Interesting is anything with a different name, description or stats
 def create_interesting_dictionary(familiar_file):
-    is_interesting = False
     interesting_dictionary = {}
     enemy_name = ""
     field_name = ""
@@ -106,7 +105,6 @@ def parse_enemy_info_recu(familiar, unit_lookup, interest) -> bool:
                             parse_enemy_info_recu(familiar, unit_lookup, split_line[1])
                     elif level == 2:
                         if field_name == "stats":
-                            is_interesting = True
                             if split_line[0] == "strength":
                                 fam.damage = int(split_line[1])
                             elif split_line[0] == "constitution":
@@ -120,13 +118,16 @@ def parse_enemy_info_recu(familiar, unit_lookup, interest) -> bool:
                             if split_line[0] == "name":
                                 # get name from csv
                                 fam.display_name = unit_lookup.get(split_line[1].strip('"'), fam.display_name)
+                                #get matching description (will be overwritten if there's a different one)
                                 key = split_line[1].replace("NAME", "DESC").strip('"')
                                 fam.desc = unit_lookup.get(key, "")
                                 #print(f"{fam.display_name=}, {fam.desc=}, {split_line[1].strip('"')=}")
+
                             elif split_line[0] == "tooltip":
                                 # get tooltip from csv
                                 fam.desc = unit_lookup.get(split_line[1].strip('"'), "")
                                 #print(f"{fam.display_name=}, {fam.desc=}, {split_line[1].strip('"')=}")
+
                         elif field_name == "properties":
                             if split_line[0] == "health":
                                 fam.health = int(split_line[1])
@@ -141,12 +142,6 @@ def parse_enemy_info_recu(familiar, unit_lookup, interest) -> bool:
 
 
 def generate_formatted_item_list():
-
-    field_name = ""
-    fam = Familiar(name="")
-    level = 0
-    familiar_dic  = {}
-
     # Load CSV data into a lookup dictionary
     unit_lookup = {}
     with open("units.csv", mode='r', encoding='utf-8') as f:
@@ -164,9 +159,12 @@ def generate_formatted_item_list():
 
     print(unit_lookup)
 
+    #Create a Dictionary of interesting familiars
     familiar_dic = create_interesting_dictionary('druid_friends.gon')
     #print(familiar_dic)
 
+
+    #Call the recursive function to build the familiars and print to file
     with open('wiki_format_familiars.txt', 'w', encoding='utf-8') as f_out:
         for item in familiar_dic:
             fam = Familiar(name=item)

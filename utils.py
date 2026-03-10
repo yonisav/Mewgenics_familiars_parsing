@@ -1,7 +1,7 @@
 from tkinter import BooleanVar
 
 
-def create_enemy_info_box(description:str = "Error", Location:str = "", health:int= -1, shield:int= 0, holy_shield:int= 0,
+def create_enemy_info_box(description:str = "Error", location:str = "", type:str = "", health:int= -1, shield:int= 0, holy_shield:int= 0,
                           damage:int= -1,movement:int= -1, luck:int= -1) -> str:
 
     real_health = health if health != -1 else ""
@@ -13,7 +13,8 @@ def create_enemy_info_box(description:str = "Error", Location:str = "", health:i
 
     infobox = f"""{{{{Infobox/Enemy
 | Description = {description}
-| Location = {Location}
+| Location = {location}
+| Type = {type}
 | Health = {real_health}
 | Shield = {real_shield}
 | HolyShield = {real_holy_shield}

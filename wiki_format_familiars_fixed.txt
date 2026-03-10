@@ -1,7 +1,8 @@
 Florian the Flea
 {{Infobox/Enemy
 | Description = Your flea friend till the end!
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 10
 | Shield = 
 | HolyShield = 
@@ -11,10 +12,11 @@ Florian the Flea
 }}
 
 
-Deathbot (Summon)
+Deathbot (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 12
 | Shield = 
 | HolyShield = 
@@ -27,7 +29,8 @@ Deathbot (Summon)
 Turret
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 3
 | Shield = 
 | HolyShield = 
@@ -40,7 +43,8 @@ Turret
 Rocket Turret
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 3
 | Shield = 
 | HolyShield = 
@@ -50,10 +54,11 @@ Rocket Turret
 }}
 
 
-Leech (Summon)
+Leech (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 
 | HolyShield = 
@@ -66,7 +71,8 @@ Leech (Summon)
 Beefy Leech
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 8
 | Shield = 
 | HolyShield = 
@@ -76,10 +82,11 @@ Beefy Leech
 }}
 
 
-Best Bud (Summon)
+Best Bud (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 8
 | Shield = 
 | HolyShield = 
@@ -89,10 +96,11 @@ Best Bud (Summon)
 }}
 
 
-Catbot (Summon)
+Catbot (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 10
 | Shield = 
 | HolyShield = 
@@ -105,7 +113,8 @@ Catbot (Summon)
 Zombie Kitten
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 6
 | Shield = 
 | HolyShield = 
@@ -118,7 +127,8 @@ Zombie Kitten
 Skeleton Kitten
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 0
 | Shield = 6
 | HolyShield = 
@@ -128,10 +138,11 @@ Skeleton Kitten
 }}
 
 
-Bombchu (Summon)
+Bombchu (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 5
 | Shield = 
 | HolyShield = 
@@ -141,10 +152,11 @@ Bombchu (Summon)
 }}
 
 
-Robo-Vac (Summon)
+Robo-Vac (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 3
 | Shield = 
 | HolyShield = 
@@ -154,10 +166,11 @@ Robo-Vac (Summon)
 }}
 
 
-Nurse Bot (Summon)
+Nurse Bot (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 5
 | Shield = 5
 | HolyShield = 
@@ -167,10 +180,11 @@ Nurse Bot (Summon)
 }}
 
 
-Tesla Coil (Summon)
+Tesla Coil (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 5
 | Shield = 
 | HolyShield = 
@@ -180,10 +194,11 @@ Tesla Coil (Summon)
 }}
 
 
-Fetus Gusher (Summon)
+Fetus Gusher (Familiar)
 {{Infobox/Enemy
 | Description = Its water attack pushes all units in a straight line. Must be in water to attack. Seeks water when out of water.
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 15
 | Shield = 
 | HolyShield = 
@@ -196,7 +211,8 @@ Fetus Gusher (Summon)
 Sleep Paralysis Demon
 {{Infobox/Enemy
 | Description = When killed, the afflicted cat wakes up.
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 19
 | Shield = 
 | HolyShield = 
@@ -206,10 +222,11 @@ Sleep Paralysis Demon
 }}
 
 
-Hyde (Summon)
+Hyde (Familiar)
 {{Infobox/Enemy
 | Description = Its melee attack can hit multiple times!
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 8
 | Shield = 
 | HolyShield = 
@@ -222,7 +239,8 @@ Hyde (Summon)
 Summoned Clot
 {{Infobox/Enemy
 | Description = Has a chance to become a Clone at the end of its turn.
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 
 | HolyShield = 
@@ -232,10 +250,11 @@ Summoned Clot
 }}
 
 
-Triachnid (Summon)
+Triachnid (Familiar)
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 3
 | Shield = 
 | HolyShield = 
@@ -248,7 +267,8 @@ Triachnid (Summon)
 Tina's Friend 
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 10
 | Shield = 
 | HolyShield = 
@@ -261,7 +281,8 @@ Tina's Friend
 The Lost
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 14
 | Shield = 
 | HolyShield = 
@@ -274,7 +295,8 @@ The Lost
 The Intruder
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 28
 | Shield = 
 | HolyShield = 
@@ -284,10 +306,11 @@ The Intruder
 }}
 
 
-Phantom Mask (Summon)
+Phantom Mask (Familiar)
 {{Infobox/Enemy
 | Description = Invulnerable. Attack it to knock it foward in a straight line. It deals 5 damage to units it hits.
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 
 | HolyShield = 
@@ -300,7 +323,8 @@ Phantom Mask (Summon)
 Baby Squirrel
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 
 | HolyShield = 
@@ -313,7 +337,8 @@ Baby Squirrel
 Turtle
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 10
 | HolyShield = 
@@ -326,7 +351,8 @@ Turtle
 Toad
 {{Infobox/Enemy
 | Description = 
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 
 | HolyShield = 
@@ -339,7 +365,8 @@ Toad
 Egg
 {{Infobox/Enemy
 | Description = What could it hatch into?
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 4
 | Shield = 4
 | HolyShield = 
@@ -352,7 +379,8 @@ Egg
 Glowing Mushroom
 {{Infobox/Enemy
 | Description = Grants Mana to nearby units on its turn.
-| Location = Summon
+| Type = Familiar
+| Location = All
 | Health = 1
 | Shield = 
 | HolyShield = 
